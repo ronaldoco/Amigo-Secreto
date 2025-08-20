@@ -65,8 +65,9 @@ function sortearAmigo(){
     }  
 
     const listItem = document.createElement("li"); //Cria um elemento <li>
-    listItem.textContent = "O nome so seu amigo secreto é: " + listaDeAmigos[escolhido]; //Define o texto do item
+    listItem.textContent = "O nome do seu amigo secreto é: " + listaDeAmigos[escolhido]; //Define o texto do item
     campo.appendChild(listItem); //Adiciona o <li> à lista HTML
 
 }
+
 
